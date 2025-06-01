@@ -33,6 +33,8 @@ Automated test suite using Cypress.
 - `screenshots/` – Cypress test runner in action
 - `README.md` – describes how to run the tests locally
 
+![No validation](./no-form-validation.gif)
+
 ---
 
 ## 📸 Preview
