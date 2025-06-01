@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QA Audit Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 style="color: #999999;">Welcome to Our Site</h1> <!-- low contrast -->
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="404page.html">Broken Link</a> <!-- broken link -->
+  </nav>
+
+  <img src="missing-image.jpg"> <!-- missing alt, broken src -->
+
+  <form>
+    <input type="text" placeholder="Name"> <!-- no label -->
+    <input type="email" placeholder="Email"> <!-- no label -->
+    <button type="submit">Submit</button> <!-- no form validation -->
+  </form>
+
+  <button id="does-nothing">Click Me</button> <!-- button with no handler -->
+
+</body>
+</html>
